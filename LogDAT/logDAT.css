@@ -1,0 +1,210 @@
+#LOGDAT {
+	margin: auto;
+	width: 100px;
+	height: 125px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.7),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#USARC {
+	float: right;
+	height: 125px;
+	width: 125px;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.7),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+.jumbotron {
+	width: auto;
+	height: 500px;
+	margin: auto;
+	background-image: url("USAR.jpg");
+	background-repeat: no-repeat;
+	background-position: 10% 53%;
+	background-size: cover;
+	background-attachment: scroll;
+	color: white;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+.jumbotron h1 {
+	font-weight: 700;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.7),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.jumbotron h3 {
+	color: gold;
+	margin-top: 6.5em;
+	margin-right: 40%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.7),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.navbar {
+	background-color: black;
+	color: #FFD700;
+	margin-bottom: 0;
+	padding: 0 20px;
+	padding-right: 20px;
+	border-radius: 15px;
+
+}
+
+
+
+.navbar-default .navbar-nav>li>a {
+	color: #FFD700;
+	
+}
+
+.navbar-default .navbar-nav>.active>a {
+	background-color: black;
+	color: #FFD700;
+
+}
+
+.dropdown label {
+ 
+		padding-left: 15px;
+		color: black;
+} 
+
+.navbar-right {
+
+	padding-right: 35px;
+}
+
+#aboutUs {
+	background-image: url("LogDatNew.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 25px;
+	border-radius: 25px;
+	margin-bottom: 200px;
+}
+	
+.img-circle {
+    border-radius: 50%;
+}
+
+#aboutUs h2 {
+	color: white;
+}
+
+#aboutUs label {
+
+	color: white;
+}
+
+#logdatDoes {
+	text-align: center;
+	border: 2px solid #1f5fc6;
+	border-radius: 15px;
+	padding: 20px;
+	margin-bottom: 5px;
+}
+
+#logdatDoes h2 {
+
+	text-align: left;
+	padding-left: 25px;
+}
+
+#logdatDoes p {
+	text-align: left;
+}
+
+#logdatDoes img {
+	height: 300px;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#logdatDash {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#logdatDash h2 {
+
+	text-align: left;
+	
+}
+
+#logdatDash .dashboard {
+
+	background: #F8F5E1;
+	padding:5px 25px;
+	border-radius: 25px;
+	border: 2px solid rgb(232, 144, 62);
+	padding-bottom: 50px;
+	color: #8c4d0f;
+	text-shadow: 0px 4px 3px rgba(232, 144, 62,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#logdatDash .dashboard label {
+	color: #8c4d0f;
+	margin-top: 5px;
+}
+
+#logdatDash .dashboard .dropdown-toggle {
+
+	border-radius: 15px;	
+	border: 1px solid rgb(232, 144, 62);
+	text-align: center;
+	color: rgb(232, 144, 62);
+	padding: 6px;
+	background-color: #8c4d0f;
+	text-shadow: 0px 4px 3px rgba(232, 144, 62,0.1),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#logdatDash .heading {
+	text-align: left;
+	text-decoration: underline;
+}
+
+#logdatDash .row {
+
+	border-radius: 15px;
+	border: #8c4d0f 1px solid;
+	height: auto;
+
+}
+
+#logdatDash img{
+
+	margin: auto;
+	height: 100%;
+	width: 100%;
+}
+
+
+#green  {
+	color:green;
+}
+
+.red {
+	color:red;
+}
+
+#masterRecord {
+	padding: 20px;
+	
+}
+
+#floater {
+	float:right;
+}
+

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LogDAT</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="logDAT.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+	<div class="container">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<img class="navbar-brand" src="LogDAT_Logo_Sm_Xprnt.gif">
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">USARC<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">My Profile</a></li>
+								<li><a href="#">Asset Visibility</a></li>
+								<li><a href="#">Unit Dashboard</a></li>
+								<li><a href="#">PBO Dashboard</a></li>
+								<li><a href="#">MMDF Lookup</a></li>
+								<li><a href="#">Reference Tables</a></li>
+								<li><a href="#">Catalog Search</a></li>
+								<li><a href="#">Serial # Finder (SNIF)</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Property Data<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">ECS/SDS Map</a></li>
+								<li><a href="#">Unit Equip List (UEL)</a></li>
+								<li><a href="#">Equip Storage</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Toolbox<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Open 3C Requests</a></li>
+								<li><a href="#">Master Record</a></li>
+								<li><a href="#">Transfer Equipment</a></li>
+								<li><a href="#">Management</a></li>
+								<li><a href="#">Reports</a></li>
+								<li><a href="#">Type, Make & Model</a></li>
+								<li><a href="#">Systems</a></li>
+								<li><a href="#">Search & Modify Equipment</a></li>
+							</ul>
+						</li>
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Maintenance<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">AMSS</a></li>
+								<li><a href="#">AMSA / ECS Shops Map</a></li>
+								<li><a href="#">Shop Dashboard</a></li>
+								<li><a href="#">RSC Shop Dashboard</a></li>
+								<li><a href="#">USAR Shop Dashboard</a></li>
+								<li><a href="#">Shop Info</a></li>
+								<li><a href="#">17R Report</a></li>
+								<li><a href="#">Search Work Orders</a></li>
+								<li><a href="#">Projected Repair Cost</a></li>
+								
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">User Administration</a></li>
+								<li><a href="#">Approve Accounts</a></li>
+								<li><a href="#">Group Administration</a></li>
+								<li><a href="#">Role Maintenance</a></li>
+								<li><a href="#">Menu Maintenance</a></li>
+								<li><a href="#">Message Scroller</a></li>
+								<li><a href="#">Log In As...</a></li>
+								<li><a href="#">Team Administration</a></li>
+								<li><a href="#">Maint Window Admin</a></li>
+								<li><a href="#">CF Admin</a></li>
+								
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Team<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">ALERT Mgmt Module</a></li>										
+							</ul>
+						</li>
+
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LogDAT Help <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Send an Alert</a></li>
+								<li><a href="#">Send Feedback</a></li>
+								<li><a href="#">LogDAT+ User Guide</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+
+			</nav>
+
+			<div class="jumbotron">
+				<img id="LOGDAT" src="USARMY.jpg">
+				<img id="USARC" src="usarc.png">
+				<h1>LogDAT+</h1>
+				<h3>The USARC Commander's Sight Picture for Success</h3>
+				<button class="btn btn-primary btn-lg">Contact Our Team!</button>	
+
+			</div>
+
+
+			<div id="logdatDash">
+				<div class="dashboard">
+					<h2>My LogDAT+</h2>
+					<h4>Welcome, Frank! <a href="*"><span id="floater"><u>Go to My Profile</u></a></span></h4>
+
+					<div class="row" id="firstRow">
+						<div class="col-md-3 column"> 
+							<h4 class="heading">My Roles <span id="green"><i class="fa fa-plus-circle" aria-hidden="true"></i></span></h4>
+							<ul class="list-unstyled">
+								<label for="currentRole">Current Role:</label>
+								<li class="dropdown" id="currentRole">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LogDAT Admin (W47AAA)<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><label >Primary Roles</label></li>
+										<li><a href="#">Sr.SASMO (W47AAA)</a></li>
+										<li><a href="#">NEFF TCX (W47AAA)</a></li>
+										<li><a href="#">SASMO (W47AAA)</a></li>
+										<li role="separator" class="divider"></li>
+										<li><label >Secondary Roles</label></li>								
+										<li><a href="#">SASMO (W47AFF)</a></li>
+										<li><a href="#">Sr. SASMO (W47AFF)</a></li>
+									</ul>
+								</li>
+								<label for="defaultRole">Default Role:</label>
+								<li class="dropdown" id="defaultRole">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LogDAT Admin (W47AAA)<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><label >Primary Roles</label></li>
+										<li><a href="#">Sr.SASMO (W47AAA)</a></li>
+										<li><a href="#">NEFF TCX (W47AAA)</a></li>
+										<li><a href="#">SASMO (W47AAA)</a></li>
+										<li role="separator" class="divider"></li>
+										<li><label >Secondary Roles</label></li>								
+										<li><a href="#">SASMO (W47AFF)</a></li>
+										<li><a href="#">Sr. SASMO (W47AFF)</a></li>
+									</ul>
+								</li>
+							</ul></div>
+							<div class="col-md-5 column">
+								<h4 class="heading">Master Record Search</h4>
+								<div class="row" id="masterRecord">
+									<div class="col-md-12">
+										<form>
+											<div class="form-group">
+												<label>
+													Search by UIC, unit name, or receipt holder	
+													<input type="text" name="searchUIC"></label>
+												</label>
+												<label>
+													Search by model name, LIN, NSN, NIIN, or serial number	
+													<input type="text" name="searchUIC"></label>
+												</label>
+											</div>
+										</div>
+									</form>
+
+								</div>
+							</div>
+							<div class="col-md-4 column">
+
+								<h4 class="heading">My Favorites <span id="green"><i class="fa fa-plus-circle" aria-hidden="true"></i></span></h4>
+								<div class="row">
+									<div class="col-md-6">
+										<ul class="list-unstyled">
+											<li><a href="*">My Profile <i class="red fa fa-minus-circle" aria-hidden="true"></i></a></li>
+											<li><a href="*">Create a 3C <i class="red fa fa-minus-circle" aria-hidden="true"></i></a></li>
+											<li><a href="*">Transfer Equipment <i class="red fa fa-minus-circle" aria-hidden="true"></i></a></li>								
+										</ul>
+									</div>
+									<div class="col-md-6">
+										<ul class="list-unstyled">
+											<li><a href="*">Shop Dashboard <i class="red fa fa-minus-circle" aria-hidden="true"></i></a></li>
+											<li><a href="*">Shop Info <i class="red fa fa-minus-circle" aria-hidden="true"></i></a></li>
+											<li><a href="*">Unit Equip List <i class="red fa fa-minus-circle" aria-hidden="true"></i></a></li>								
+										</ul>
+									</div>
+								</div>
+
+
+							</div>
+						</div><!-- row -->
+						<div class="row">
+							<div class="col-md-6 column"><h4 class="heading">My Maps <span id="green"><i class="fa fa-plus-circle" aria-hidden="true"></i></span></h4>
+								<label>	
+									<a href="*"><img class="img-thumbnail" src="ECSMap.jpg"></a>
+									ECS Map <i class="red fa fa-minus-circle" aria-hidden="true"></i>
+								</label>
+								<label>	
+									<a href="*"><img class="img-thumbnail" src="ShopMap.jpg"></a>
+									Shop Map <i class="red fa fa-minus-circle" aria-hidden="true"></i>
+								</label>
+							</div>
+							<div class="col-md-6 column"><h4 class="heading">My Charts <span id="green"><i class="fa fa-plus-circle" aria-hidden="true"></i></span></h4>
+								<div id="charts">
+									<label>	
+										<a href="*"><img class="img-thumbnail" src="chart1.jpg"></a>
+										Work Order Age <i class="red fa fa-minus-circle" aria-hidden="true"></i>
+									</label>
+								</div>
+							</div>
+
+						</div>
+
+
+					</div>
+
+				</div><!-- #logdatDash -->
+
+				<div id="logdatDoes">
+					<div class="row">
+						<h2>About LogDAT+:</h2>
+						<div class="col-md-4">
+							<h3>Unit Readiness</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<img class="img-circle" src="readiness.jpg">
+							</div>
+
+							<div class="col-md-4">
+								<h3>Logistics</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<img class="img-circle"src="logistics.jpg">
+								</div>
+
+								<div class="col-md-4">
+									<h3>Maintenance</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										<img class="img-circle" src="maintenance.jpg">
+									</div>
+
+
+								</div> <!-- row -->
+							</div> <!--container-fluid-->
+
+							<!--Form-->
+							<div id="aboutUs">
+								<div class="row">
+									<form>
+										<div class="col-lg-8">
+											Search goes here
+										</div>
+										<div id="suggestionForm" class="col-lg-4">
+											<div class="form-group has-success has-warning has-feedback">
+												<h2>Tell us what you think of the new site!</h2>
+												<label class="control-label" for="inputSuccess2">Name</label>
+												<input type="text" class="form-control" id="inputSuccess2" placeholder="your name" required aria-describedby="inputSuccess2Status">
+												<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+												<span id="inputSuccess2Status" class="sr-only">(success)</span>
+											</div>
+
+											<div class="form-group has-success has-warning has-feedback">
+												<label class="control-label" for="inputWarning2">Email</label>
+												<input type="email" class="form-control" id="inputWarning2" placeholder="email" required aria-describedby="inputWarning2Status">
+												<span class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></span>
+												<span id="inputWarning2Status" class="sr-only">(warning)</span>
+											</div>
+
+											<div class="form-group has-success has-feedback">
+												<label class="control-label" for="inputGroupSuccess1">Suggestions or Comments</label>
+												<div class="input-group">
+													<span class="input-group-addon">Your Input Here!</span>
+													<textarea class="form-control" rows="6" id="inputGroupSuccess1" aria-describedby="inputGroupSuccess1Status"></textarea>
+												</div>
+												<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+												<span id="inputGroupSuccess1Status" class="sr-only">(success)</span>
+
+											</div>
+											<button type="submit" class="btn btn-default">Submit!</button>
+
+										</div>
+
+									</form>
+								</div>
+							</div>
+						</div><!-- /.container- -->
+
+						<script
+						src="https://code.jquery.com/jquery-3.2.1.min.js"
+						integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+						crossorigin="anonymous"></script>
+						<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+
+					</body>
+
+					</html>
+
